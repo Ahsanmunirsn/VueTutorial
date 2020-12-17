@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1>Speed Typer</h1>
+    <p>Your Score: 
+      {{keywords.filter(keyword => keyword.correct).length}} / {{keywords.length}}</p>
     <p>
       <span 
         :class="{
@@ -49,12 +51,12 @@ export default {
         //correct answer
         this.keywords[this.index].correct = true;
         this.keywords[this.index].wrong = false;
-        this.keywords[this.index].wrong = false;
+        this.keywords[this.index].pending = false;
       } else{
         //wrong answer
         this.keywords[this.index].correct = false;
         this.keywords[this.index].wrong = true;
-        this.keywords[this.index].wrong = false;
+        this.keywords[this.index].pending = false;
       }
 
       this.inputValue = "";
