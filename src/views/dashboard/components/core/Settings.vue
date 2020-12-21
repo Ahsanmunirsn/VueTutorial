@@ -8,7 +8,7 @@
       flat
       link
       min-width="100"
-      style="position: fixed; top: 115px; right: -35px; border-radius: 8px;"
+      style="position: fixed; top: 35px; right: -35px; border-radius: 8px;"
     >
       <v-icon large>
         mdi-settings
@@ -125,59 +125,6 @@
               </template>
             </v-item>
           </v-item-group>
-
-          <v-btn
-            block
-            class="mb-3"
-            color="success"
-            href="https://www.creative-tim.com/product/vuetify-material-dashboard"
-            default
-            rel="noopener"
-            target="_blank"
-          >
-            Free Download
-          </v-btn>
-
-          <v-btn
-            block
-            class="mb-3"
-            color="grey darken-1"
-            dark
-            href="https://vuetifyjs.com/components/api-explorer"
-            default
-            rel="noopener"
-            target="_blank"
-          >
-            Documentation
-          </v-btn>
-
-          <div class="my-12" />
-
-          <div>
-            <strong class="mb-3 d-inline-block">THANK YOU FOR SHARING!</strong>
-          </div>
-
-          <v-btn
-            class="ma-1"
-            color="#55acee"
-            dark
-            default
-            rounded
-          >
-            <v-icon>mdi-twitter</v-icon>
-            - 45
-          </v-btn>
-
-          <v-btn
-            class="ma-1"
-            color="#3b5998"
-            dark
-            default
-            rounded
-          >
-            <v-icon>mdi-facebook</v-icon>
-            - 50
-          </v-btn>
         </v-card-text>
       </v-card>
     </v-menu>

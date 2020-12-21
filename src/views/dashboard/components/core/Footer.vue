@@ -7,7 +7,7 @@
         align="center"
         no-gutters
       >
-        <v-col
+        <!-- <v-col
           v-for="(link, i) in links"
           :key="i"
           class="text-center mb-sm-0 mb-5"
@@ -20,7 +20,7 @@
             target="_blank"
             v-text="link.text"
           />
-        </v-col>
+        </v-col> -->
 
         <v-spacer class="hidden-sm-and-down" />
 
@@ -29,11 +29,7 @@
           md="auto"
         >
           <div class="body-1 font-weight-light pt-6 pt-md-0 text-center">
-            &copy; 2019, made with
-            <v-icon size="18">
-              mdi-heart
-            </v-icon>
-            by <a href="https://www.creative-tim.com">Creative Tim</a> for a better web.
+            PwC &copy; 2019
           </div>
         </v-col>
       </v-row>
@@ -45,26 +41,26 @@
   export default {
     name: 'DashboardCoreFooter',
 
-    data: () => ({
-      links: [
-        {
-          href: '#',
-          text: 'Creative Tim',
-        },
-        {
-          href: '#',
-          text: 'About Us',
-        },
-        {
-          href: '#',
-          text: 'Blog',
-        },
-        {
-          href: '#',
-          text: 'Licenses',
-        },
-      ],
-    }),
+    // data: () => ({
+    //   links: [
+    //     {
+    //       href: '#',
+    //       text: 'Creative Tim',
+    //     },
+    //     {
+    //       href: '#',
+    //       text: 'About Us',
+    //     },
+    //     {
+    //       href: '#',
+    //       text: 'Blog',
+    //     },
+    //     {
+    //       href: '#',
+    //       text: 'Licenses',
+    //     },
+    //   ],
+    // }),
   }
 </script>
 

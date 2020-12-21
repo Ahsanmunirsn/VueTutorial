@@ -92,6 +92,11 @@
   display: flex
   flex-wrap: wrap
   position: relative
+  margin-right: 5px
+  margin-left: 5px
+  height: 150px
+  width: 19%
+  min-width: 230px
 
   > div:first-child
     justify-content: space-between
