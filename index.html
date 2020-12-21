@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+    <style>
+        .wrapper{
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, fr);
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+        <div>
+            CSS Grid Layout Crash Course
+        </div>
+
+    </div>
+</body>
+</html>
