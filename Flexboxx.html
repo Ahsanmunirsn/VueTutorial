@@ -1,11 +1,32 @@
 <style>
     .container-1{
-
+        display: flex;
     }
 
-    .container-1 div{
+    .container-2{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .container-1 div, .container-2 div{
         border:1px #ccc solid;
         padding: 10px;
+    }
+
+    .box-1{
+        flex:1;
+    }
+
+    .box-2{
+        flex:1;
+    }
+
+    .box-3{
+        flex:1;
+    }
+
+    .container-2-box{
+        width: 27%;
     }
 
 </style>
@@ -23,5 +44,19 @@
         <h3>Box 3</h3>
         <p>Flexbox CSS In 20 Minutes</p>
     </div>
+</div>
 
+<div class="container-2">
+    <div class="container-2-box">
+        <h3>Box One</h3>
+        <p>Flexbox CSS In 20 Minutes</p>
+    </div>
+    <div class="container-2-box">
+        <h3>Box 2</h3>
+        <p>Flexbox CSS In 20 Minutes</p>
+    </div>
+    <div class="container-2-box">
+        <h3>Box 3</h3>
+        <p>Flexbox CSS In 20 Minutes</p>
+    </div>
 </div>
